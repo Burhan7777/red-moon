@@ -6,6 +6,8 @@
 package com.jmstudios.redmoon.activity
 
 import android.os.Bundle
+import android.widget.Toast
+import androidx.core.view.accessibility.AccessibilityManagerCompat.TouchExplorationStateChangeListener
 import com.jmstudios.redmoon.fragment.AboutFragment
 
 class AboutActivity : ThemedAppCompatActivity() {
